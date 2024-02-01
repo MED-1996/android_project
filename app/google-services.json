@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626498108279",
+    "project_id": "androidclass-42487",
+    "storage_bucket": "androidclass-42487.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626498108279:android:f01b00d7f5db2f5844ff72",
+        "android_client_info": {
+          "package_name": "com.example.lesson3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX122Xvnq50H09w0RtNuK4-lY5yiB12DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
