@@ -1,9 +1,9 @@
 package com.example.lesson3
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.lesson3.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -35,7 +35,6 @@ class SignUpActivity : AppCompatActivity() {
                             // Navigate to login page
                             val loginPage = Intent(this, LoginActivity::class.java)
                             startActivity(loginPage)
-
                         } else {
                             // If sign up fails, display a message to the user
                             Toast.makeText(
