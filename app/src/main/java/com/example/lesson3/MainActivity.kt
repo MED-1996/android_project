@@ -33,6 +33,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
+
+        // Navigate to the content page.
+        val contentButton = findViewById<Button>(R.id.contentButton)
+        contentButton.setOnClickListener {
+            val intent = Intent(this, ContentUploadActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
